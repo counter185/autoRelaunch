@@ -1,0 +1,15 @@
+C:\Users\counter\source\repos\autoRelaunch\autoRelaunch\bin\Release\autoRelaunch.exe.config
+C:\Users\counter\source\repos\autoRelaunch\autoRelaunch\bin\Release\autoRelaunch.exe
+C:\Users\counter\source\repos\autoRelaunch\autoRelaunch\bin\Release\autoRelaunch.pdb
+C:\Users\counter\source\repos\autoRelaunch\autoRelaunch\obj\Release\MainWindow.g.cs
+C:\Users\counter\source\repos\autoRelaunch\autoRelaunch\obj\Release\App.g.cs
+C:\Users\counter\source\repos\autoRelaunch\autoRelaunch\obj\Release\autoRelaunch_MarkupCompile.cache
+C:\Users\counter\source\repos\autoRelaunch\autoRelaunch\obj\Release\autoRelaunch_MarkupCompile.lref
+C:\Users\counter\source\repos\autoRelaunch\autoRelaunch\obj\Release\MainWindow.baml
+C:\Users\counter\source\repos\autoRelaunch\autoRelaunch\obj\Release\autoRelaunch.g.resources
+C:\Users\counter\source\repos\autoRelaunch\autoRelaunch\obj\Release\autoRelaunch.Properties.Resources.resources
+C:\Users\counter\source\repos\autoRelaunch\autoRelaunch\obj\Release\autoRelaunch.csproj.GenerateResource.Cache
+C:\Users\counter\source\repos\autoRelaunch\autoRelaunch\obj\Release\autoRelaunch.csproj.CoreCompileInputs.cache
+C:\Users\counter\source\repos\autoRelaunch\autoRelaunch\obj\Release\autoRelaunch.exe
+C:\Users\counter\source\repos\autoRelaunch\autoRelaunch\obj\Release\autoRelaunch.pdb
+C:\Users\counter\source\repos\autoRelaunch\autoRelaunch\obj\Release\autoRelaunch.csprojResolveAssemblyReference.cache

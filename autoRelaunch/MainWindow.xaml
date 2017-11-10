@@ -1,0 +1,27 @@
+﻿<Window x:Name="appwindow" x:Class="autoRelaunch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:local="clr-namespace:autoRelaunch"
+        mc:Ignorable="d"
+        Title="AutoRelaunch" Height="189.488" Width="466.381" SizeToContent="Width" ResizeMode="NoResize" WindowStyle="ThreeDBorderWindow">
+    <Grid Margin="0,0,-1,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="toCheck" HorizontalAlignment="Left" Height="23" Margin="215,14,0,0" TextWrapping="Wrap" Text="cmd" VerticalAlignment="Top" Width="229" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="PathToFile" HorizontalAlignment="Left" Height="23" Margin="215,40,0,0" TextWrapping="Wrap" Text="cmd.exe" VerticalAlignment="Top" Width="207" VerticalContentAlignment="Center"/>
+        <Label Content="Process to check (without extension!)" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="205" Height="26"/>
+        <Label Content="Path to file" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="99" Height="26"/>
+        <Button x:Name="RunBtn" Content="Activate" HorizontalAlignment="Left" Margin="10,122,0,0" VerticalAlignment="Top" Width="90" Height="28" Click="Button_Click"/>
+        <Button x:Name="HideWindow" Content="Hide this window (only when activated)" HorizontalAlignment="Left" Margin="194,122,0,0" VerticalAlignment="Top" Width="257" Height="28" Click="Stealth_Click"/>
+        <Button x:Name="OpenFD" Content="..." HorizontalAlignment="Left" Margin="422,40,0,0" VerticalAlignment="Top" Width="22" Height="23" Click="OpenFD_Click"/>
+        <Label Content="Delay between next relaunch (sec)" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Width="205"/>
+        <CheckBox x:Name="waitForLaunch" Content="Wait for the next app launch" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" Width="353" Height="17" FontSize="10" IsHitTestVisible="True" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="delay" HorizontalAlignment="Left" Height="25" Margin="215,67,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" Width="124" VerticalContentAlignment="Center"/>
+
+    </Grid>
+</Window>
